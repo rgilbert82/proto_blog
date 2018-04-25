@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "title": "Mega Man II",
+  "release": "1988",
+  "category": "NES",
+  "content": "<p><strong>Mega Man II</strong> was released by Capcom in 1988. It continues the story from <strong>Mega Man I</strong>, which was released the previous year.</p><p>The game's format is pretty much the same as the first one, but with an added password system and eight robot masters instead of six. <strong>Mega Man II</strong> is the breakthrough title in the series and is widely considered one of the greatest video games of all time.</p><p>The Minibosses do a great medley of the songs from the OST. <a href='https://www.youtube.com/watch?v=EuxfQjJ-3DM' target='_blank'>Check it out!</a></p>",
+  "boss_weaknessses": "<h2>Boss Weaknesses</h2><h3>Robot Masters</h3><ul><li><strong>Metal Man: </strong>Use Metal Blade or Mega-Buster</li><li><strong>Bubble Man: </strong>Use Metal Blade</li><li><strong>Heat Man: </strong>Use Bubble Lead</li><li><strong>Wood Man: </strong>Use Atomic Fire</li><li><strong>Air Man: </strong>Use Leaf Shield</li><li><strong>Crash Man: </strong>Use Air Shooter</li><li><strong>Flash Man: </strong>Use Metal Blade</li><li><strong>Quick Man: </strong>Use Time Stopper</li></ul><h3>Fortress Guardians</h3><ul><li><strong>Dragon: </strong>Use Quick Boomerang</li><li><strong>Wall Robot: </strong>Use Bubble Lead</li><li><strong>Guts Dozer: </strong>Use Quick Boomerang</li><li><strong>Sentry: </strong>Use Crash Bomb</li><li><strong>Wily Ship Phase 1: </strong>Use Atomic Fire</li><li><strong>Wily Ship Phase 2: </strong>Use Crash Bomb</li><li><strong>Wily Alien: </strong>Use Bubble Lead</li></ul>",
+  "promo": "/images/games/mm2/promo.png",
+  "cover1": "/images/games/mm2/cover.png",
+  "cover1_caption": "NA Cover",
+  "cover2": "/images/games/mm2/cover_europe.jpg",
+  "cover2_caption": "EU Cover",
+  "title_screen": "/images/games/mm2/title.png",
+  "stage_select": "/images/games/mm2/stage_select.png"
+}

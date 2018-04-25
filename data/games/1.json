@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "title": "Mega Man",
+  "release": "1987",
+  "category": "NES",
+  "content": "<p><strong>Mega Man</strong> was released by Capcom in 1987. It begins the story of Mega Man, a badass robot who is called to save the world from mad scientist, Dr Wily.</p><p>This game didn't sell as well as later entries in the MM series, but only because it was too hardcore for all you babies.</p>",
+  "boss_weaknessses": "<h2>Boss Weaknesses</h2><h3>Robot Masters</h3><ul><li><strong>Bomb Man: </strong>Use Mega-Buster</li><li><strong>Guts Man: </strong>Use Bombs</li><li><strong>Cut Man: </strong>Use Rock Thrower</li><li><strong>Elec Man: </strong>Use Cutter Boomerang</li><li><strong>Ice Man: </strong>Use Thunder Beam</li><li><strong>Fire Man: </strong>Use Iceslasher</li></ul><h3>Fortress Guardians</h3><ul><li><strong>Yellow Devil: </strong>Use Thunder Beam with Pause Glitch</li><li><strong>Clone: </strong>Use Fire Storm or Thunder Beam</li><li><strong>Bubbles: </strong>Use Mega-Buster and Rock Thrower</li><li><strong>Wily Form 1: </strong>Use Fire Storm</li><li><strong>Wily Form 2: </strong>Use Thunder Beam and Cutter Boomerang</li></ul>",
+  "promo": "/images/games/mm1/promo.jpg",
+  "cover1": "/images/games/mm1/cover.png",
+  "cover1_caption": "NA Cover",
+  "cover2": "/images/games/mm1/cover_europe.jpg",
+  "cover2_caption": "EU Cover",
+  "title_screen": "/images/games/mm1/title_japan.png",
+  "stage_select": "/images/games/mm1/stage_select.png"
+}

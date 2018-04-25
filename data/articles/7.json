@@ -1,0 +1,23 @@
+{
+  "id": 7,
+  "content": "<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p><p>In nibh nulla, dignissim vel tellus sed, ultrices tincidunt orci. Curabitur commodo, tortor at vehicula vestibulum, metus lectus aliquet elit, vitae lobortis est sem at sem. Sed auctor diam orci, eget fringilla turpis varius a. Vestibulum semper accumsan ex, ac elementum odio varius eu. Vestibulum ut tincidunt neque. Vestibulum congue, neque vel varius viverra, libero erat efficitur turpis, vitae mollis tortor tortor eu erat. Integer nec venenatis lorem, vitae consectetur dui. Aliquam venenatis est id mauris mattis, ac egestas lacus rutrum. Donec aliquam lorem felis, eget pretium justo gravida a. Nam iaculis eros vitae porttitor dignissim. Donec iaculis mauris ac justo iaculis, at imperdiet odio hendrerit.</p>",
+  "comments": [
+    {
+      "articleID": 7,
+      "user_id": 1,
+      "commentID": 1,
+      "time":"Wed Jan 04 2017 19:52:40 GMT-0800 (PST)",
+      "username": "Proto Man",
+      "icon": "/images/icons/proto_man.png",
+      "comment": "Real Robot Masters don't need em."
+    }, {
+      "articleID": 7,
+      "user_id": 10,
+      "commentID": 2,
+      "time":"Wed Jan 04 2017 21:12:11 GMT-0800 (PST)",
+      "username": "Gemini Man",
+      "icon": "/images/icons/gemini_man.jpg",
+      "comment": "The corporatization of Neo-Tokyo is the real problem here."
+    }
+  ]
+}

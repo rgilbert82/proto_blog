@@ -1,0 +1,15 @@
+{
+  "id": 6,
+  "title": "Mega Man VI",
+  "release": "1993",
+  "category": "NES",
+  "content": "<p><strong>Mega Man 6</strong> was released by Capcom in 1993. It is the least popular of the NES Mega Man titles because by this point in time the SNES was dominating the market.</p><p>Dr Wily is probably up to his old tricks again here. I don't know. I was busy playing <strong>Mega Man X</strong>.</p>",
+  "boss_weaknessses": "<h2>Boss Weaknesses</h2><h3>Robot Masters</h3><ul><li><strong>Wind Man: </strong>Use Centaur Flash or Mega-Buster</li><li><strong>Flame Man: </strong>Use Wind Storm</li><li><strong>Blizzard Man: </strong>Use Flame Blast</li><li><strong>Plant Man: </strong>Use Blizzard Attack</li><li><strong>Tomahawk Man: </strong>Use Plant Barrier</li><li><strong>Yamato Man: </strong>Use Silver Tomahawk</li><li><strong>Knight Man: </strong>Use Yamato Spear</li><li><strong>Centaur Man: </strong>Use Knight Crush</li></ul><h3>Mr. X Fortress Guardians</h3><ul><li><strong>Rounder II: </strong>Use Flame Blast</li><li><strong>Power Piston: </strong>Use Silver Tomahawk</li><li><strong>Metonger Z: </strong>Use Blizzard Attack</li><li><strong>X Crusher: </strong>Use Flame Blast</li></ul><h3>Wily Fortress Guardians</h3><ul><li><strong>Mechazaurus: </strong>Use Yamato Spear</li><li><strong>Tank CS2: </strong>Use Wind Storm</li><li><strong>Wily Phase 1: </strong>Use Silver Tomahawk</li><li><strong>Wily Phase 2: </strong>Use Knight Crush or Silver Tomahawk</li><li><strong>Wily Phase 3: </strong>Use Beat or Mega-Buster</li></ul>",
+  "promo": "/images/games/mm6/promo.jpg",
+  "cover1": "/images/games/mm6/stage_tomahawk.png",
+  "cover1_caption": "Tomahawk Man Stage",
+  "cover2": "/images/games/mm6/cover.png",
+  "cover2_caption": "NA Cover",
+  "title_screen": "/images/games/mm6/title.png",
+  "stage_select": "/images/games/mm6/stage_select.png"
+}

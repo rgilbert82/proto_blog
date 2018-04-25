@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "content": "<p>Hey Robo-Patriarchy, I've got some New Year's resolutions for you:</p><p>1.) At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><p>2.) Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. </p><p>3.) Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>",
+  "comments": [
+    {
+      "articleID": 4,
+      "user_id": 3,
+      "commentID": 1,
+      "time":"Mon Jan 02 2017 17:32:22 GMT-0800 (MT)",
+      "username": "Roll",
+      "icon": "/images/icons/roll.jpg",
+      "comment": "Join the Nintendo Fun Club today, Mac!"
+    }, {
+      "articleID": 4,
+      "user_id": 5,
+      "commentID": 2,
+      "time":"Mon Jan 02 2017 21:13:04 GMT-0800 (EST)",
+      "username": "Dr. Wily",
+      "icon": "/images/icons/wily.jpg",
+      "comment": "ur liberal marxist agenda is unsustainable lol"
+    }
+  ]
+}

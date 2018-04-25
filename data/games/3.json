@@ -1,0 +1,15 @@
+{
+  "id": 3,
+  "title": "Mega Man III",
+  "release": "1990",
+  "category": "NES",
+  "content": "<p><strong>Mega Man 3</strong> was released by Capcom in 1990. Dr Wily is up to no good once again, and, once again, Mega Man is called to take care of business.</p><p>New to this game are Mega Man's slide move and robo-dog extraordinaire, Rush. Proto Man shows up to save the day a few times.</p>",
+  "boss_weaknessses": "<h2>Boss Weaknesses</h2><h3>Robot Masters</h3><ul><li><strong>Top Man: </strong>Use Hard Knuckle or Mega-Buster</li><li><strong>Shadow Man: </strong>Use Top Spin</li><li><strong>Spark Man: </strong>Use Shadow Blade</li><li><strong>Magnet Man: </strong>Use Spark Shock</li><li><strong>Hard Man: </strong>Use Magnet Missile</li><li><strong>Snake Man: </strong>Use Needle Cannon</li><li><strong>Gemini Man: </strong>Use Search Snake</li><li><strong>Needle Man: </strong>Use Gemini Laser</li></ul><h3>Mega Man 2 Robot Masters</h3><ul><li><strong>Metal Man: </strong>Use Magnet Missile or Hard Knuckle</li><li><strong>Quick Man: </strong>Use Gemini Laser or Search Snake</li><li><strong>Air Man: </strong>Use Magnet Missile or Spark Shock</li><li><strong>Crash Man: </strong>Use Hard Knuckle</li><li><strong>Flash Man: </strong>Use Needle Cannon or Gemini Laser</li><li><strong>Bubble Man: </strong>Use Spark Shock or Shadow Blade</li><li><strong>Wood Man: </strong>Use Neelde Cannon or Search Snake</li><li><strong>Heat Man: </strong>Use Top Spin</li><li><strong>Break Man: </strong>Use Mega-Buster</li></ul><h3>Fortress Guardians</h3><ul><li><strong>Kamegoro Maker: </strong>Use Shadow Blade or Search Snake</li><li><strong>Yellow Devil MK-II: </strong>Use Hard Knuckle</li><li><strong>Holo Mega Men: </strong>Use Top Spin or Search Snake</li><li><strong>Wily Machine Phase 1: </strong>Use Hard Knuckle</li><li><strong>Wily Machine Phase 2: </strong>Use Hard Knuckle</li><li><strong>Gamma Phase 1: </strong>Use Hard Knuckle</li><li><strong>Gamme Phase 2: </strong>Use Top Spin or Search Snake</li></ul>",
+  "promo": "/images/games/mm3/promo.png",
+  "cover1": "/images/games/mm3/cover.png",
+  "cover1_caption": "NA Cover",
+  "cover2": "/images/games/mm3/cover_europe.jpg",
+  "cover2_caption": "EU Cover",
+  "title_screen": "/images/games/mm3/title.png",
+  "stage_select": "/images/games/mm3/stage_select.png"
+}

@@ -1,0 +1,1235 @@
+@import "whitespace-reset.css"
+@import "mixins"
+
+*
+  box-sizing: border-box
+
+a
+  color: currentColor
+  text-decoration: none
+
+html
+  height: 100%
+  overflow-x: hidden
+
+body
+  position: relative
+  overflow-x: hidden
+  font: normal 16px "Open Sans Condensed","Arial Narrow","Helvetica Neue",Helvetica,Arial,sans-serif
+
+#proto_header
+  height: 56px
+  background-color: colors.redDark
+  border-bottom: 1px solid colors.redDarkest
+  color: colors.white
+  dl
+    dt, dd
+      display: inline-block
+      line-height: 55px
+      width: 50%
+    dt
+      #hamburger_wrapper
+        margin-top: -1px
+        vertical-align: top
+        text-align: center
+        display: inline-block
+        width: 70px
+        height: 56px
+        margin-right: 20px
+        border-right: 1px solid colors.redDarkest
+        background-color: colors.redDarker
+        &:hover
+          background-color: colors.redLight
+        #proto_man_icon
+          height: 56px
+          padding: 5px
+      h1
+        vertical-align: middle
+        display: inline-block
+        font-size: 33px
+        letter-spacing: 2px
+    dd
+      text-align: right
+      ul
+        min-width: 300px
+        max-width: 500px
+        vertical-align: middle
+        #login
+          .dropdown
+            a
+              display: none
+              text-align: center
+              &:hover
+                cursor: pointer
+                font-weight: bold
+                color: colors.blueLight
+        li
+          position: relative
+          display: inline-block
+          width: 25%
+          font-size: 16px
+          letter-spacing: 1.3px
+          .dropdown_link
+            display: inline-block
+            width: 100%
+            text-align: center
+          &:hover
+            .dropdown_link
+              cursor: pointer
+              background-color: colors.redLight
+              border-left: 1px solid colors.redDarkest
+              border-right: 1px solid colors.redDarkest
+          .dropdown
+            display: none
+            position: absolute
+            min-width: 100%
+            top: 55px
+            border: 1px solid colors.redDarkest
+            background-color: colors.redDark
+            z-index: 7
+            li
+              display: block
+              width: 100%
+              text-align: center
+              line-height: 14px
+              font-size: 14px
+              + li
+                border-top: 1px solid colors.redDarkest
+              a
+                display: block
+                padding: 10px 0
+                &:hover
+                  background-color: colors.redLight
+          div.dropdown
+            background-color: colors.redLight
+            right: 0
+            form
+              padding: 10px
+              input
+                float: right
+                padding: 5px
+                margin-bottom: 10px
+                border: 1px solid colors.redDarkest
+                border-radius: 3px
+                font: normal 13px "Helvetica Neue",Helvetica,Arial,sans-serif;
+              input[type="submit"]
+                width: 50%
+                background-color: colors.blueDark
+                border: 1px solid colors.blueDarkest
+                color: colors.white
+                text-align: center
+                text-transform: uppercase
+                letter-spacing: 1.3px
+                &:hover
+                  cursor: pointer
+                  background-color: colors.blueLight
+
+main
+  border-top: 1px solid colors.grayDarker
+
+#featured
+  padding-top: 40px
+  .col1, .col2
+    border-top: 1px solid colors.grayDarker
+  .col1
+    .featured_article
+      margin-bottom: -50px
+      img
+        width: 100%
+      #featured_article_info
+        position: relative
+        height: 150px
+        padding-top: 15px
+        padding-left: 30px
+        margin-top: -155px
+        color: colors.white
+        text-align: left
+        background: linear-gradient(to top, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0))
+        z-index: 2
+        h2
+          font-size: 40px
+        h3
+          font-size: 22px
+          color: colors.grayLighter
+        h4
+          font-size: 18px
+          color: colors.grayLight
+          a:hover
+            color: colors.white
+        &:hover
+          cursor: pointer
+
+.col1, .col2
+  display: inline-block
+  vertical-align: top
+.col1
+  width: 70%
+  text-align: center
+  padding: 20px
+  .header_box
+    position: relative
+    top: 22px
+    display: inline-block
+    margin: 0 auto
+    padding: 2px
+    background-color: colors.redDark
+    h2
+      width: 200px
+      line-height: 40px
+      border: 1px solid colors.white
+      background-color: colors.redDark
+      color: colors.white
+      text-align: center
+      font-size: 22px
+      font-weight: bold
+      letter-spacing: 1.3px
+  .articles
+    padding: 40px 0 20px 0
+    border-top: 1px solid colors.grayLight
+    div
+      display: inline-block
+      vertical-align: top
+      + div
+        border-left: 1px solid colors.grayLighter
+
+.col2
+  width: 30%
+  padding: 20px 20px 20px 0
+  #most_read
+    padding: 0 10px 10px 10px
+    margin: 38px 0 20px 0
+    border: 1px solid colors.grayLighter
+    border-top-right-radius: 3px
+    border-bottom-left-radius: 3px
+    border-bottom-right-radius: 3px
+    h4
+      display: inline-block
+      position: relative
+      top: -38px
+      left: -11px
+      padding: 10px
+      border: 1px solid colors.grayLighter
+      border-bottom: 1px solid colors.white
+      border-top-left-radius: 3px
+      border-top-right-radius: 3px
+      color: colors.redDark
+      font: bold 13px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    img
+      width: 100%
+    img:first-child
+      padding: 10px
+    ol
+      margin-left: 12px
+      list-style: decimal
+      font: bold 16px "Helvetica Neue",Helvetica,Arial,sans-serif
+      color: colors.redDark
+      li
+        padding: 10px 0
+        margin: 0 5px
+        + li
+          border-top: 1px solid colors.grayLighter
+        h2
+          display: inline
+          a
+            color: colors.black
+            &:hover
+              color: colors.blueDark
+  #tipsheets
+    border: 1px solid colors.grayLighter
+    border-radius: 3px
+    h2
+      border-bottom: 1px solid colors.grayLighter
+      line-height: 40px
+      font-size: 20px
+      font-weight: bold
+      text-align: center
+      letter-spacing: 1.3px
+
+.slideshow
+  ul
+    display: inline-block
+    vertical-align: middle
+    width: 80%
+    li
+      a
+        img
+          width: 100%
+          padding: 15px
+      + li
+        display: none
+  .left_arrow, .right_arrow
+    vertical-align: middle
+    display: inline-block
+    position: relative
+    width: 10%
+    .arrow_body
+      position: absolute
+      top: 0
+      width: 0
+      height: 0
+      z-index: 2
+    .arrow_shadow
+      position: absolute
+      top: 0
+      width: 0
+      height: 0
+      z-index: 3
+  .left_arrow
+    .arrow_body
+      top: 50%
+      left: 20px
+      margin-top: -14px
+      border-top: 14px solid transparent
+      border-right: 14px solid colors.grayDark
+      border-bottom: 14px solid transparent
+    .arrow_shadow
+      top: 50%
+      left: 22px
+      margin-top: -14px
+      border-top: 14px solid transparent
+      border-right: 14px solid colors.white
+      border-bottom: 14px solid transparent
+    &:hover
+      cursor: pointer
+      .arrow_body
+        border-right: 14px solid colors.blueDark
+  .right_arrow
+    .arrow_body
+      top: 50%
+      right: 20px
+      margin-top: -14px
+      border-top: 14px solid transparent
+      border-left: 14px solid colors.grayDark
+      border-bottom: 14px solid transparent
+    .arrow_shadow
+      top: 50%
+      right: 22px
+      margin-top: -14px
+      border-top: 14px solid transparent
+      border-left: 14px solid colors.white
+      border-bottom: 14px solid transparent
+    &:hover
+      cursor: pointer
+      .arrow_body
+        border-left: 14px solid colors.blueDark
+
+#featured
+  background: colors.grayBG url("../images/background/outlets.png") 0 0 repeat;
+  min-height: 100px
+
+#archived_1
+  background-color: colors.white
+  .col1
+    .articles
+      div
+        width: 25%
+      #latest
+        img:first-child
+          width: 100%
+          padding: 10px 10px 10px 0
+        #latest_header
+          padding: 0 20px 15px 0
+          text-align: left
+          font: bold 20px "Helvetica Neue",Helvetica,Arial,sans-serif
+          color: colors.redDark
+        ul
+          margin-left: 20px
+          list-style: square
+          color: colors.redDark
+          li
+            padding-left: 0
+            padding-top: 0
+            text-align: left
+            h2
+              margin-left: -5px
+              display: inline
+
+#email_signup
+  position: relative
+  padding: 20px
+  border-top: 1px solid colors.grayLighter
+  border-bottom: 1px solid colors.grayLighter
+  header, form
+    display: inline-block
+    width: 50%
+    vertical-align: middle
+  header
+    h3
+      font-size: 24px
+      font-weight: bold
+      letter-spacing: 1.5px
+    p
+      font-size: 16px
+      letter-spacing: 1.5px
+  form
+    input[type="email"]
+      width: 65%
+      padding: 5px 10px
+      border: 1px solid colors.grayLight
+      border-radius: 3px
+      font: normal 16px "Open Sans Condensed","Arial Narrow","Helvetica Neue",Helvetica,Arial,sans-serif
+    input[type="submit"]
+      width: 30%
+      margin-left: 5%
+      padding: 5px
+      background-color: colors.redDark
+      border: 1px solid colors.redDark
+      border-radius: 3px
+      color: colors.white
+      font: bold 16px "Open Sans Condensed","Arial Narrow","Helvetica Neue",Helvetica,Arial,sans-serif
+      &:hover
+        background-color: colors.redLight
+
+#proto_pics
+  .col1
+    #slideshow_wrapper
+      margin-top: 20px
+      background: colors.grayBG url("../images/background/outlets.png") 0 0 repeat;
+      h1
+        padding: 20px 0
+        margin: 0 50px
+        border-bottom: 1px solid colors.grayLight
+        font-size: 34px
+        font-weight: bold
+        letter-spacing: 2px
+        color: colors.redDark
+        strong
+          font-weight: normal
+          color: colors.white
+      .slideshow
+        width: 100%
+        ul
+          li
+            img
+              width: 100%
+              padding: 20px 0
+  .col2
+    img
+      width: 100%
+
+#archived_2
+  .col1
+    h3
+      font-size: 20px
+      font-weight: bold
+    .articles
+      div
+        width: 33.3%
+        p
+          display: none
+    .thumb_links_wrapper
+      padding-top: 40px
+      border-top: 1px solid colors.grayLighter
+      div
+        display: inline-block
+        width: 33.3%
+        vertical-align: top
+        h3
+          font: normal 20px "Helvetica Neue",Helvetica,Arial,sans-serif
+          color: colors.redDark
+        + div
+          border-left: 1px solid colors.grayLighter
+
+li.article_link, li.latest_article_link, li.thumb_link
+  padding: 10px
+  text-align: left
+  h2, h4
+    a
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+      font-weight: bold
+      color: colors.black
+      &:hover
+        color: colors.blueDark
+  h2
+    font-size: 16px
+  h4
+    padding: 7px 0
+    font-size: 12px
+    color: colors.grayDark
+    + h4
+      display: none
+  p
+    font-weight: bold
+  img
+    width: 100%
+
+#login_message_window
+  position: fixed
+  min-width: 200px
+  top: 100px
+  left: 70%
+
+.message_window
+  display: none
+  position: absolute
+  padding: 15px
+  top: -90px
+  left: 10%
+  background-color: colors.blueLight
+  border: 2px solid colors.blueDarker
+  border-radius: 3px
+  z-index: 10
+  h2
+    font-size: 22px
+    font-weight: bold
+    letter-spacing: 1.3px
+    color: colors.white
+    text-align: center
+  div
+    position: absolute
+    left: 20px
+    width: 0
+    height: 0
+    border-left: 15px solid transparent
+    border-right: 15px solid transparent
+  div:nth-of-type(1)
+    bottom: -20px
+    border-top: 20px solid colors.blueLight
+    z-index: 10
+  div:nth-of-type(2)
+    bottom: -22px
+    border-top: 20px solid colors.blueDarker
+    z-index: 8
+
+article
+  margin: 40px 0
+  border-top: 1px solid colors.grayLighter
+  border-bottom: 1px solid colors.grayLighter
+  header
+    padding: 20px
+    text-align: center
+    letter-spacing: 1.5px
+    h3
+      font: bold 16px "Helvetica Neue",Helvetica,Arial,sans-serif
+      color: colors.redLight
+      text-transform: uppercase
+    h1
+      font-size: 44px
+      font-weight: bold
+    p
+      font-size: 24px
+      font-weight: bold
+      color: colors.grayDarker
+    h2
+      padding-top: 5px
+      font-size: 18px
+      color: colors.grayDark
+      a
+        font-weight: bold
+        text-transform: uppercase
+        &:hover
+          color: colors.blueDark
+
+.article_image
+  padding: 0 20px
+  img
+    width: 100%
+  figcaption
+    font-size: 16px
+    font-weight: bolder
+    color: colors.grayLight
+.social_media_bar
+  padding: 20px 0
+  margin: 20px
+  border-top: 1px solid colors.grayLighter
+  border-bottom: 1px solid colors.grayLighter
+  text-align: center
+  dl
+    display: inline-block
+    margin: 0 20px
+    color: colors.grayLight
+    a
+      dt, dd
+        display: inline-block
+        vertical-align: middle
+      dd
+        margin-left: 10px
+        font: bolder 14px "Helvetica Neue",Helvetica,Arial,sans-serif
+      &:hover
+        cursor: pointer
+        color: colors.blueDark
+#article_content
+  font: normal 18px "Helvetica Neue",Helvetica,Arial,sans-serif
+  color: colors.grayDarkest
+  p
+    padding-bottom: 20px
+    text-align: left
+  img
+    width: 100%
+    padding: 20px
+  h2
+    font-size: 24px
+    text-transform: uppercase
+    color: colors.redDark
+  ul
+    padding: 20px 0
+    li
+      padding: 10px
+      font-size: 18px
+      letter-spacing: 1.3px
+  a
+    &:hover
+      text-decoration: underline
+      color: colors.blueDark
+#article_authors, #author_email
+  padding: 20px 0
+  margin-bottom: 20px
+  border-top: 1px solid colors.grayLighter
+  border-bottom: 1px solid colors.grayLighter
+  text-align: left
+  h2
+    padding-bottom: 10px
+    font-size: 18px
+    font-weight: bold
+    letter-spacing: 1.3px
+  h4
+    font: bold 14px "Helvetica Neue",Helvetica,Arial,sans-serif
+    color: colors.blueDark
+    a:hover
+      color: colors.blueLight
+#article_tags
+  border-bottom: 1px solid colors.grayLighter
+  text-align: left
+  h2
+    padding-bottom: 10px
+    font-size: 18px
+    font-weight: bold
+    letter-spacing: 1.3px
+  ul
+    padding-bottom: 20px
+    li
+      display: inline-block
+      padding: 5px 10px
+      a
+        div
+          display: inline-block
+          vertical-align: middle
+          + div
+            height: 26px
+            padding: 0 10px
+            background-color: colors.grayLightest
+            color: colors.grayDark
+            font: bold 14px "Helvetica Neue",Helvetica,Arial,sans-serif
+            text-align: center
+            h4
+              line-height: 26px
+        div:first-child
+          width: 0
+          height: 0
+          border-top: 13px solid transparent
+          border-right: 13px solid colors.grayLightest
+          border-bottom: 13px solid transparent
+      &:hover
+        div
+          &:first-child
+            border-right: 13px solid colors.blueLight
+          + div
+            background-color: colors.blueLight
+            color: colors.white
+
+#comments
+  h1
+    padding: 15px
+    font: normal 18px "Helvetica Neue",Helvetica,Arial,sans-serif
+    letter-spacing: 1.5px
+    text-transform: uppercase
+    text-align: center
+    background-color: colors.black
+    border-radius: 3px
+    color: colors.white
+    &:hover
+      cursor: pointer
+      background-color: colors.blueLight
+  section
+    position: relative
+    display: none
+    form
+      padding: 20px 0
+      textarea, input
+        display: inline-block
+        vertical-align: middle
+        padding: 10px
+        border: 1px solid colors.grayLighter
+        border-radius: 3px
+        font: bold 14px "Helvetica Neue",Helvetica,Arial,sans-serif
+        letter-spacing: 1.2px
+      textarea
+        width: 70%
+        color: colors.grayDarker
+      input
+        width: 25%
+        margin-left: 5%
+        background-color: colors.blueDark
+        color: colors.white
+        &:hover
+          cursor: pointer
+          background-color: colors.blueLight
+    .comments_list
+      text-align: left
+      margin-left: 20px
+      li
+        clear: both
+        padding: 10px 0
+        a:hover
+          text-decoration: underline
+        dl
+          dt, dd
+            display: block
+            vertical-align: top
+          dt
+            float: left
+            width: 70px
+            img
+              width: 100%
+              padding-right: 10px
+          dd
+            margin-left: -70px
+            overflow: hidden
+            font: normal 14px "Helvetica Neue",Helvetica,Arial,sans-serif
+            h2
+              font-size: 15px
+              letter-spacing: 1.3px
+              color: colors.blueDark
+              strong
+                font-size: 12px
+                font-weight: normal
+                color: colors.grayLight
+                letter-spacing: 0.5px
+            p
+              padding: 5px 0
+              font-size: 13px
+              color: colors.grayDark
+
+#article_sidebar_links
+  border: 1px solid colors.grayLightest
+  h1:first-child
+    padding: 5px 0
+    text-align: center
+    font-size: 28px
+    font-weight: bold
+    letter-spacing: 1.5px
+    color: colors.redDark
+    border-bottom: 1px solid colors.grayLightest
+  ul
+    li
+      padding: 0
+      + li
+        dl
+          border-top: 1px solid colors.grayLightest
+      dl
+        padding: 15px 0
+        margin: 0 15px
+        dt, dd
+          display: inline-block
+          vertical-align: top
+        dt
+          width: 30%
+        dd
+          width: 70%
+          padding-left: 10px
+          text-align: left
+          h4
+            padding: 0 5px 0 0
+            color: colors.grayLight
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+            a
+              color: colors.grayLight
+              font: bold 12px "Helvetica Neue",Helvetica,Arial,sans-serif
+              &:hover
+                color: colors.blueDark
+      &:first-child
+        dl
+          dt
+            width: 100%
+
+#game_article_body
+  #article_content
+    .article_image
+      margin: 0 auto 20px auto
+      padding: 20px 0
+      width: 70%
+      border-top: 1px solid colors.grayLightest
+      border-bottom: 1px solid colors.grayLightest
+    h2
+      font: bold 30px "Open Sans Condensed","Arial Narrow","Helvetica Neue",Helvetica,Arial,sans-serif
+      color: colors.redDark
+      letter-spacing: 1.5px
+      text-transform: uppercase
+    h3
+      padding-top: 20px
+      padding-bottom: 10px
+      font-size: 20px
+      color: colors.redDarker
+  #sidebar_games
+    padding: 25px 25px 15px 25px
+    li
+      padding-bottom: 10px
+      text-align: center
+      + li
+        padding-top: 15px
+        border-top: 1px solid colors.grayLightest
+      a
+        display: inline-block
+        img
+          width: 100%
+#author_body, #info_body
+  header
+    padding: 0 0 20px 0
+    text-align: left
+    h1
+      text-transform: uppercase
+    h2
+      font-size: 20px
+      color: colors.grayDark
+    a
+      display: inline-block
+      margin-top: 20px
+      padding: 5px 10px
+      background-color: colors.twitterBlue
+      border-radius: 4px
+      img, h3
+        display: inline-block
+        vertical-align: middle
+      img
+        height: 15px
+        margin-right: 10px
+      h3
+        color: colors.white
+        text-transform: none
+        font: bold 12px "Helvetica Neue",Helvetica,Arial,sans-serif
+        height: 20px
+  #author_info
+    border-top: 1px solid colors.grayLighter
+    p, img
+      display: inline-block
+      width: 50%
+      padding: 20px 0
+      vertical-align: top
+      text-align: left
+    p
+      font: normal 16px "Helvetica Neue",Helvetica,Arial,sans-serif
+      letter-spacing: 1.3px
+      color: colors.grayDarker
+  #author_email
+    h4
+      color: colors.grayDarker
+      a
+        color: colors.blueDark
+        &:hover
+          color: colors.blueLight
+  #author_contact
+    position: relative
+    text-align: left
+    h1
+      padding-bottom: 20px
+      font-size: 34px
+      font-weight: bold
+      color: colors.grayDarkest
+      border-bottom: 1px solid colors.grayLighter
+    form
+      label, input, textarea
+        display: block
+      label
+        padding: 20px 0 10px 0
+        font: bold 14px "Helvetica Neue",Helvetica,Arial,sans-serif
+      input[type="email"], textarea
+        padding: 10px
+        width: 100%
+        border: 1px solid colors.grayLight
+        border-radius: 3px
+        font-size: 13px
+      input[type="submit"]
+        width: 100%
+        margin-top: 20px
+        padding: 10px
+        border-radius: 3px
+        border-style: none
+        background-color: colors.blueDark
+        color: colors.white
+        font: normal 20px "Helvetica Neue",Helvetica,Arial,sans-serif
+        text-transform: uppercase
+        text-align: center
+        letter-spacing: 1.5px
+        &:hover
+          cursor: pointer
+          background-color: colors.blueLight
+  #author_email_alerts, #general_email_alerts
+    position: relative
+    margin-bottom: 20px
+    background-color: colors.grayBG
+    z-index: 5
+    h1, h2
+      padding: 10px 20px
+      color: colors.white
+      text-transform: uppercase
+    h1
+      background-color: colors.grayBGLight
+      font: 100 22px "Helvetica Neue",Helvetica,Arial,sans-serif
+      letter-spacing: 1.5px
+    h2
+      font-size: 16px
+      font-weight: normal
+    form
+      padding: 0 20px 20px 20px
+      input
+        padding: 10px 20px
+        border-radius: 3px
+        font-size: 14px
+      input[type="email"]
+        width: 60%
+        border: 1px solid colors.grayDarkest
+      input[type="submit"]
+        width: 35%
+        margin-left: 5%
+        border-style: none
+        background-color: colors.redDark
+        color: colors.white
+        font-size: 12px
+        font-weight: bold
+        &:hover
+          cursor: pointer
+          background-color: colors.redLight
+  #author_recent_stories
+    border: 1px solid colors.grayLighter
+    text-align: center
+    h1
+      padding: 10px
+      border-bottom: 1px solid colors.grayLighter
+      font-size: 20px
+      text-transform: uppercase
+      letter-spacing: 1.3px
+    ol
+      margin-left: 25px
+      list-style: decimal
+      font: bold 16px "Helvetica Neue",Helvetica,Arial,sans-serif
+      color: colors.redDark
+      li
+        padding: 15px 0
+        margin: 0 5px
+        + li
+          border-top: 1px solid colors.grayLighter
+        h2
+          display: inline
+          a
+            color: colors.black
+            &:hover
+              color: colors.blueDark
+
+#info_body
+  font: bold 20px "Open Sans Condensed","Arial Narrow","Helvetica Neue",Helvetica,Arial,sans-serif
+  h1
+    font-size: 40px
+    color: colors.redDark
+    letter-spacing: 1.5px
+    text-transform: uppercase
+  ul
+    padding: 0 20px
+    li
+      padding: 20px
+      margin: 20px 0
+      border-top: 1px solid colors.grayLighter
+      h2
+        padding-bottom: 10px
+        font-size: 24px
+        text-transform: uppercase
+        color: colors.blueDark
+      h4
+        padding-top: 10px
+        font-size: 18px
+        color: colors.grayDarker
+        a
+          color: colors.blueDarker
+          &:hover
+            color: colors.blueLight
+      dl
+        dt
+          font-weight: bolder
+        dd
+          font-size: 18px
+          color: colors.grayDarker
+          + dt
+            padding-top: 15px
+  #general_email_alerts
+    margin-top: 10px
+
+
+#category_articles
+  .col1
+    ul
+      border-right: 1px solid colors.grayLighter
+      li
+        clear: both
+        overflow: hidden
+        padding: 20px 0 15px 0
+        position: relative
+        > .article_link_tag
+          display: inline-block
+          float: left
+          width: 60%
+        + li
+          border-top: 1px solid colors.grayLighter
+        h2, h4, p
+          float: right
+          padding: 0 30px
+          display: inline-block
+          width: 40%
+          text-align: left
+        h2
+          font-size: 20px
+          font-weight: normal
+          letter-spacing: 1.3px
+          line-height: .9em
+          a
+            padding-left: 0
+            color: colors.redDark
+            font-size: 18px
+            &:hover
+              color: colors.blueDark
+        p
+          padding: 20px 30px
+          letter-spacing: 1.2px
+  .col2
+    text-align: center
+    h1
+      padding-bottom: 20px
+      border-bottom: 1px solid colors.grayLighter
+      font-size: 24px
+      font-weight: bold
+      strong
+        display: block
+        color: colors.redDark
+        font-size: 32px
+        text-transform: uppercase
+    img
+      width: 100%
+
+footer
+  padding: 20px
+  background: colors.grayBG url("../images/background/outlets.png") 0 0 repeat;
+  a:hover
+    text-decoration: underline
+  #footer_head
+    padding-bottom: 10px
+    border-bottom: 1px solid colors.grayDarkest
+    h1
+      font-size: 40px
+      color: colors.grayFont
+  #footer_body
+    padding: 20px 0
+    border-top: 1px solid colors.grayDark
+    border-bottom: 1px solid colors.grayDarkest
+    nav
+      margin-right: -100px
+      letter-spacing: 1.3px
+      dl
+        display: inline-block
+        width: 25%
+        vertical-align: top
+        dt, dd
+          padding: 2px
+        dt
+          font-size: 18px
+          font-weight: bold
+          color: colors.grayLight
+        dd
+          font-size: 17px
+          color: colors.grayLighter
+  #footer_foot
+    padding: 20px 0
+    border-top: 1px solid colors.grayDark
+    font-size: 12px
+    letter-spacing: 1.3px
+    color: colors.grayFont
+    dl
+      dt, dd
+        display: inline-block
+        width: 50%
+      dd
+        text-align: right
+        ul
+          li
+            display: inline-block
+            padding: 0 5px
+            + li
+              border-left: 1px solid colors.grayFont
+
+#gallery_slide_layer
+  display: none
+  div
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: rgba(0 0 0 .7)
+    z-index: 10
+  img
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 80%
+    margin: auto
+    border: 3px solid colors.redLight
+    z-index: 25
+
+#error_message
+  padding: 50px 0
+  text-align: center
+  color: colors.redDark
+  h1
+    font-size: 40px
+  h2
+    font-size: 30px
+
+@media(max-width: 980px)
+  #author_body, #info_body
+    #author_email_alerts, #general_email_alerts
+      form
+        input
+          padding-left: 5px
+          padding-right: 5px
+
+@media(max-width: 768px)
+  .col1
+    width: 100%
+  .col2
+    display: none
+  #comments
+    section
+      form
+        input
+          font-size: .8em
+          padding-left: 5px
+          padding-right: 5px
+
+@media(max-width: 600px)
+  #proto_header
+    dl
+      dt
+        h1
+          font-size: 22px
+          letter-spacing: 1px
+      dd
+        ul
+          text-align: center
+          li
+            display: none
+          li:last-child
+            display: inline-block
+            width: 50%
+  main
+    article
+      header
+        h1
+          font-size: 32px
+        h2, p
+          font-size: 18px
+
+    #archived_1
+      .col1
+        .articles
+          #latest
+            #latest_header
+              font-size: .9em
+            ul
+              margin-left: 10px
+    li.article_link, li.latest_article_link, li.thumb_link
+      h2, h3, h4, p
+        font-size: .8em
+        letter-spacing: .5px
+      p
+        display: none
+        line-height: .95em
+    li.latest_article_link
+      line-height: .9em
+
+  #category_articles
+    .col1
+      ul
+        border-left: 1px solid colors.grayLighter
+        li
+          > .article_link_tag
+            display: inline-block
+            padding: 20px
+            width: 100%
+          h2, h4, p
+            width: 100%
+          p
+            font-size: 14px
+
+  #article_content
+    ul li
+      font-size: .8em
+
+  footer
+    #footer_body, #footer_foot
+      nav
+        margin-right: 0
+        dl
+          dt, dd
+            letter-spacing: 1px
+            font-size: 13px
+          dd
+            ul
+              li
+                letter-spacing: 1px
+                font-size: 8px
+
+@media(max-width: 480px)
+  #email_signup
+    form
+      input[type="submit"]
+        font-size: .8em
+
+  #proto_header
+    dl
+      dt
+        width: 60%
+      dd
+        width: 40%
+        ul
+          min-width: 150px
+          li:last-child
+            width: 30%
+  main
+    li.article_link, li.latest_article_link, li.thumb_link
+      h2, h3, h4, p
+        font-size: .7em
+
+  .social_media_bar
+    text-align: left
+
+  #comments
+    section
+      form
+        textarea
+          width: 60%
+        input
+          width: 35%
+
+@media(max-width: 360px)
+  #proto_header
+    dl
+      dt
+        h1
+          font-size: 20px
+      dd
+        ul
+          li:last-child
+            font-size: 12px
+
+  footer
+    #footer_body, #footer_foot
+      nav
+        margin-right: 0
+        dl
+          dt, dd
+            letter-spacing: 1px
+            font-size: 10px
+          dd
+            ul
+              li
+                letter-spacing: 1px
+                font-size: 8px

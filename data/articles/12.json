@@ -1,0 +1,15 @@
+{
+  "id": 12,
+  "content": "<h2>Check out these great games:</h2><ul><li><a href='#' class='tipsheet_link_tag' data-id='1'>Mega Man I</a></li><li><a href='#' class='tipsheet_link_tag' data-id='2'>Mega Man II</a></li><li><a href='#' class='tipsheet_link_tag' data-id='3'>Mega Man III</a></li><li><a href='#' class='tipsheet_link_tag' data-id='4'>Mega Man IV</a></li><li><a href='#' class='tipsheet_link_tag' data-id='5'>Mega Man V</a></li><li><a href='#' class='tipsheet_link_tag' data-id='6'>Mega Man VI</a></li></ul>",
+  "comments": [
+    {
+      "articleID": 12,
+      "user_id": 2,
+      "commentID": 1,
+      "time":"Mon Jan 09 2017 14:09:51 GMT-0800 (PST)",
+      "username": "Mega Man",
+      "icon": "/images/icons/mega_man.png",
+      "comment": "Classics!"
+    }
+  ]
+}

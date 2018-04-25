@@ -1,0 +1,15 @@
+{
+  "id": 5,
+  "title": "Mega Man V",
+  "release": "1992",
+  "category": "NES",
+  "content": "<p><strong>Mega Man 5</strong> was released by Capcom in 1992. Dr Wily continues his jerk streak by not only kidnapping Dr Light and attempting world domination, but also by trying to pin the whole evil scheme on Proto Man. Not cool, bro!</p><p>Proto Man is forced to come out of retirement to save the day and repair his reputation. Roll also classes things up with a brief cameo.</p>",
+  "boss_weaknessses": "<h2>Boss Weaknesses</h2><h3>Robot Masters</h3><ul><li><strong>Star Man: </strong>Use Water Wave or Mega-Buster</li><li><strong>Gravity Man: </strong>Use Star Crash</li><li><strong>Gyro Man: </strong>Use Gravity Hold</li><li><strong>Crystal Man: </strong>Use Gyro Attack</li><li><strong>Napalm Man: </strong>Use Crystal Eye</li><li><strong>Stone Man: </strong>Use Napalm Bomb</li><li><strong>Charge Man: </strong>Use Power Stone</li><li><strong>Wave Man: </strong>Use Charge Kick</li></ul><h3>Proto Fortress Guardians</h3><ul><li><strong>Tank: </strong>Use Water Wave</li><li><strong>Shielded Tank: </strong>Use Crystal Eye</li><li><strong>Battle Tank: </strong>Use Gyro Attack</li><li><strong>Fake Proto Man: </strong>Use Star Crash or Power Stone</li></ul><h3>Wily Fortress Guardians</h3><ul><li><strong>Big Pets: </strong>Use Crystal Eye</li><li><strong>Circring Q9: </strong>Use Gyro Attack</li><li><strong>Wily Phase 1: </strong>Use Mega-Buster</li><li><strong>Wily Phase 2: </strong>Use Super Arrow</li><li><strong>Wily Phase 3: </strong>Use Beat</li></ul>",
+  "promo": "/images/games/mm5/promo.jpg",
+  "cover1": "/images/games/mm5/stage_crystal.jpg",
+  "cover1_caption": "Crystal Man Stage",
+  "cover2": "/images/games/mm5/cover.png",
+  "cover2_caption": "NA Cover",
+  "title_screen": "/images/games/mm5/title.png",
+  "stage_select": "/images/games/mm5/stage_select.png"
+}

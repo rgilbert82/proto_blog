@@ -1,0 +1,81 @@
+<header data-id="{{id}}">
+  <h3><a href="#">{{category}}</a></h3>
+  <h1>{{title}}</h1>
+  <p>{{release}}</p>
+</header>
+
+<section>
+  <div class="col1">
+    <figure class="article_image">
+      <img src="{{promo}}" />
+    </figure>
+  </div>
+  <div class="col2">
+    <figure class="article_image">
+      <img src="{{title_screen}}" />
+    </figure>
+    <figure class="article_image">
+      <img src="{{stage_select}}" />
+    </figure>
+  </div>
+</section>
+
+<div class="social_media_bar">
+  <dl>
+    <a href="https://www.facebook.com/" target="_blank" >
+      <dt><img src="../images/icons/icon_facebook.png"></dt>
+      <dd>Facebook</dd>
+    </a>
+  </dl>
+  <dl>
+    <a href="https://twitter.com/" target="_blank" >
+      <dt><img src="../images/icons/icon_twitter.png"></dt>
+      <dd>Twitter</dd>
+    </a>
+  </dl>
+  <dl>
+    <a href="https://www.instagram.com/" target="_blank" >
+      <dt><img src="../images/icons/icon_instagram.png"></dt>
+      <dd>Instagram</dd>
+    </a>
+  </dl>
+  <dl>
+    <a href="https://plus.google.com/collections/featured" target="_blank" >
+      <dt><img src="../images/icons/icon_google.png"></dt>
+      <dd>Google +</dd>
+    </a>
+  </dl>
+</div>
+
+<section id="game_article_body">
+  <div class="col1">
+    <div id="article_content">
+      {{{content}}}
+      <figure class="article_image">
+        <img src="{{cover1}}" />
+        <figcaption>{{cover1_caption}}</figcaption>
+      </figure>
+      {{{boss_weaknessses}}}
+    </div>
+  </div>
+
+  <div class="col2">
+    <div>
+      <figure class="article_image">
+        <img src="{{cover2}}" />
+        <figcaption>{{cover2_caption}}</figcaption>
+      </figure>
+    </div>
+    <div id="article_sidebar_links">
+      <h1>NES Games</h1>
+      <ul id="sidebar_games">
+        <li><a href="#" class="tipsheet_link_tag" data-id="1"><img src="/images/games/mm1/title.png" /></a></li>
+        <li><a href="#" class="tipsheet_link_tag" data-id="2"><img src="/images/games/mm2/title.png" /></a></li>
+        <li><a href="#" class="tipsheet_link_tag" data-id="3"><img src="/images/games/mm3/title.png" /></a></li>
+        <li><a href="#" class="tipsheet_link_tag" data-id="4"><img src="/images/games/mm4/title.png" /></a></li>
+        <li><a href="#" class="tipsheet_link_tag" data-id="5"><img src="/images/games/mm5/title.png" /></a></li>
+        <li><a href="#" class="tipsheet_link_tag" data-id="6"><img src="/images/games/mm6/title.png" /></a></li>
+      </ul>
+    </div>
+  </div>
+</section>

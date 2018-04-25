@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "content": "<p>Quisque bibendum finibus sem nec accumsan. Curabitur vel lobortis metus. Nullam sapien enim, ullamcorper et nulla ac, semper fringilla nunc. Aliquam erat volutpat. Praesent dictum eget odio sit amet dignissim. Maecenas a lacus sed nunc aliquet dignissim. Sed vel nibh ornare, posuere odio et, mattis purus. Nulla viverra gravida condimentum. Nullam vitae dictum quam, nec eleifend purus. Vivamus sed lectus iaculis, porttitor felis et, sollicitudin ipsum. Nam sem risus, venenatis hendrerit quam id, dapibus efficitur leo. Vestibulum aliquet ultricies orci, ut blandit nisi accumsan sit amet. Nunc sit amet magna commodo, cursus massa ut, tempus est. Praesent malesuada ex non lectus malesuada, sed pharetra augue pellentesque. Aenean id urna ante. Aenean non velit molestie, suscipit enim vitae, suscipit diam.</p><p>Fusce nisi nisl, volutpat commodo libero eleifend, laoreet rutrum dolor. Nam vitae dapibus lorem, interdum laoreet justo. Praesent posuere ex id eleifend sodales. Vestibulum auctor ipsum dui, sit amet consequat lorem viverra vitae. Sed aliquam lacus quis tellus auctor pharetra. Mauris sed leo in risus egestas laoreet. Suspendisse in vestibulum odio. Morbi porta nisi turpis, et blandit risus fringilla a. Nunc congue leo aliquet felis feugiat rutrum. Aenean at vehicula ligula. Proin maximus metus lorem, ullamcorper consectetur nisi ultrices quis. Morbi sollicitudin mattis tempor. Integer molestie odio ligula, in dictum arcu laoreet nec.</p><p>Sed sodales, nisi eget hendrerit facilisis, est nisl ultrices nisl, interdum auctor mi nisi id eros. Ut eget suscipit metus. Pellentesque molestie accumsan risus sed pellentesque. Pellentesque mauris odio, consequat id orci sit amet, sagittis scelerisque ligula. Phasellus odio ipsum, auctor ut nunc sit amet, efficitur volutpat odio. Pellentesque convallis dolor enim, at commodo nunc consectetur at. Nam molestie augue id risus volutpat tincidunt. Mauris tempor in enim ultrices tincidunt. Donec sed libero vel sapien luctus semper in et leo. Donec sit amet commodo justo, eu laoreet diam. Nunc scelerisque sem facilisis dolor vulputate pellentesque. Nulla sed rutrum velit, non facilisis felis. Nulla nec dapibus quam.</p>",
+  "comments": [
+    {
+      "articleID": 6,
+      "user_id": 3,
+      "commentID": 1,
+      "time":"Wed Jan 04 2017 20:12:11 GMT-0800 (MT)",
+      "username": "Roll",
+      "icon": "/images/icons/roll.jpg",
+      "comment": "OMG Protoman lolz"
+    }, {
+      "articleID": 6,
+      "user_id": 8,
+      "commentID": 2,
+      "time":"Wed Jan 04 2017 23:03:41 GMT-0800 (PST)",
+      "username": "Splash Woman",
+      "icon": "/images/icons/splash_woman.jpg",
+      "comment": "Our prototype doesn't determine our behaviour. These offensive stereotypes are unacceptable!"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 10,
+  "content": "<img src='/images/articles/mega_man_smash.jpg' /><img src='/images/articles/mega_man_moon.jpg' /><img src='/images/articles/mega_man_smash_2.jpg' />",
+  "comments": [
+    {
+      "articleID": 10,
+      "user_id": 6,
+      "commentID": 1,
+      "time":"Tue Jan 10 2017 11:25:57 GMT-0800 (PST)",
+      "username": "Dr. Cossack",
+      "icon": "/images/icons/cossack.jpg",
+      "comment": "Whoa, Moon Bots are blowing my mind right now!"
+    }
+  ]
+}

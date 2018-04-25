@@ -1,0 +1,23 @@
+{
+  "id": 14,
+  "content": "<p>As robot technology advances you'll want to make efforts to keep ahead of the curve. You don't want to find yourself in the unenviable position of having super lame robot designs. Ut eget suscipit metus. Pellentesque molestie accumsan risus sed pellentesque. Pellentesque mauris odio, consequat id orci sit amet, sagittis scelerisque ligula. Phasellus odio ipsum, auctor ut nunc sit amet, efficitur volutpat odio. Pellentesque convallis dolor enim, at commodo nunc consectetur at. Nam molestie augue id risus volutpat tincidunt. Mauris tempor in enim ultrices tincidunt.</p><p>Maecenas neque tellus, egestas nec ultricies id, mattis eget ipsum. Aliquam egestas erat id nibh ultrices scelerisque. Sed auctor, magna in auctor finibus, urna lectus consequat felis, a semper augue enim a magna. Phasellus euismod congue blandit. Sed ut mi at ante vulputate ornare nec ac turpis. Cras tempor orci dolor, imperdiet congue orci lacinia in. Mauris sed diam aliquet velit laoreet posuere. Etiam ut eros mollis, volutpat urna eget, elementum dui. Aenean pretium tincidunt urna nec facilisis. Suspendisse tempor sed sapien ut egestas. Donec quis odio blandit, lacinia risus a, fringilla ipsum. Duis orci lorem, porta ut rutrum a, aliquam at leo. Aenean nunc ligula, molestie at neque eget, egestas efficitur sem. Nam arcu augue, pulvinar sed libero in, lobortis pharetra nibh. Aenean luctus posuere commodo. Nam sed elit eu dolor porta finibus ut ac lorem.</p><p>Donec lacus dui, rutrum ac molestie eget, mollis id lorem. Mauris dapibus leo quis pretium viverra. Nam rutrum leo vitae odio mollis ultricies. Nam elementum placerat magna id ullamcorper. Ut congue congue scelerisque. Praesent nec vestibulum arcu, id consectetur tellus. Curabitur iaculis nunc nisl, non sollicitudin nisl varius varius. Duis molestie dolor ac nibh sagittis, vel hendrerit dui fermentum. Cras sed dolor a nisl molestie gravida. Curabitur euismod ante augue, a dictum massa fringilla ut. Sed iaculis nec elit nec egestas. Nam purus tellus, aliquet id laoreet quis, accumsan eu lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum suscipit turpis nec pretium. Aliquam quis maximus turpis.</p>",
+  "comments": [
+    {
+      "articleID": 14,
+      "user_id": 7,
+      "commentID": 1,
+      "time":"Tue Jan 10 2017 22:13:11 GMT-0800 (PST)",
+      "username": "Cut Man",
+      "icon": "/images/icons/cut_man.jpg",
+      "comment": "I'm going to like these new designs ironically until it's decided that they're hip."
+    }, {
+      "articleID": 14,
+      "user_id": 2,
+      "commentID": 2,
+      "time":"Wed Jan 11 2017 02:02:47 GMT-0800 (PST)",
+      "username": "Mega Man",
+      "icon": "/images/icons/mega_man.png",
+      "comment": "What's wrong with the old designs!?!?"
+    }
+  ]
+}

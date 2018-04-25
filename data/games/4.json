@@ -1,0 +1,15 @@
+{
+  "id": 4,
+  "title": "Mega Man IV",
+  "release": "1991",
+  "category": "NES",
+  "content": "<p><strong>Mega Man 4</strong> was released by Capcom in 1991. This time around it appears that the mad scientist trying to conquer the world with evil robot masters isn't Dr Wily at all, but rather the mysterious Dr Cossack... Psyche! It's actually Dr Wily after all! Whoahh, big surprise!</p><p><strong>Mega Man 4</strong> instroduces the Mega-Buster charge shot, which is generally considered pretty cool.</p>",
+  "boss_weaknessses": "<h2>Boss Weaknesses</h2><h3>Robot Masters</h3><ul><li><strong>Toad Man: </strong>Use Drill Bomb or Mega-Buster</li><li><strong>Bright Man: </strong>Use Rain Flush</li><li><strong>Pharaoh Man: </strong>Use Flash Stopper</li><li><strong>Ring Man: </strong>Use Pharaoh Shot</li><li><strong>Dust Man: </strong>Use Ring Boomerang</li><li><strong>Skull Man: </strong>Use Dust Crusher</li><li><strong>Dive Man: </strong>Use Skull Barrier</li><li><strong>Drill Man: </strong>Use Dive Missiles</li></ul><h3>Cossack Fortress Guardians</h3><ul><li><strong>Drill Head: </strong>Use Ring Boomerang</li><li><strong>Dividing Room: </strong>Use Dust Crusher</li><li><strong>Wall Walkers: </strong>Use Pharaoh Shot</li><li><strong>Dr. Cossack: </strong>Use Dust Crusher</li></ul><h3>Wily Fortress Guardians</h3><ul><li><strong>Super Metool: </strong>Use Ring Boomerang</li><li><strong>Large Red... Thing: </strong>Use Ring Boomerang</li><li><strong>Wily Phase 1: </strong>Use Mega-Buster</li><li><strong>Wily Phase 2: </strong>Use Drill Bomb</li><li><strong>Wily Phase 3: </strong>Use Pharaoh Shot</li></ul>",
+  "promo": "/images/games/mm4/promo.png",
+  "cover1": "/images/games/mm4/cover_japan.jpg",
+  "cover1_caption": "JP Cover",
+  "cover2": "/images/games/mm4/cover.png",
+  "cover2_caption": "NA Cover",
+  "title_screen": "/images/games/mm4/title.png",
+  "stage_select": "/images/games/mm4/stage_select.png"
+}

@@ -1,0 +1,15 @@
+{
+  "id": 20,
+  "content": "<p>Proto Blog is a single-page blog application that I made as a JavaScript practice project. I used jQuery, Backbone, Handlebars, Underscore, Node.js, Express, Jade and Stylus.</p><p>The aesthetic is based on Politico, but it's filled with Mega Man themed dummy content instead of real political journalism.</p><p>All the Mega Man characters and pictures within this site belong to Capcom.</p>",
+  "comments": [
+    {
+      "articleID": 20,
+      "user_id": 2,
+      "commentID": 1,
+      "time":"Fri Jan 13 2017 08:08:00 GMT-0800 (PST)",
+      "username": "Mega Man",
+      "icon": "/images/icons/mega_man.png",
+      "comment": "Right on! What a super awesome fake blog! It's totally the best!"
+    }
+  ]
+}

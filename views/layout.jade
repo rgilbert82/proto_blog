@@ -1,0 +1,172 @@
+include /_mixins
+
+doctype html
+meta(name='viewport', content='width=device-width, initial-scale=1')
+html
+  head
+    title= "Proto Blog"
+    link(href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet")
+    +stylesheet_link_tag("application")
+    +javascript_include_tag("vendor/all")
+    +javascript_include_tag("handlebars_templates")
+  body
+    header(id="proto_header")
+      dl
+        dt
+          a(href="#" id="hamburger_wrapper")
+            img(src="/images/icons/proto_man.png" id="proto_man_icon")
+          h1= "PROTO BLOG"
+        dd
+          ul
+            li(class="dropdown_li")
+              h2(id="header_articles" class="dropdown_link")="Articles"
+              ul(class="dropdown")
+                li
+                  a(href="#" class="category_link_tag" data-category="news")="News"
+                li
+                  a(href="#" class="category_link_tag" data-category="blogs")="Blogs"
+                li
+                  a(href="#" class="category_link_tag" data-category="history")="History"
+                li
+                  a(href="#" class="category_link_tag" data-category="doctor's orders")="Doctors' Orders"
+            li(class="dropdown_li")
+              h2(id="header_contributors" class="dropdown_link")="Contributors"
+              ul(class="dropdown")
+                li
+                  a(href="#" class="author_link_tag" data-author_id="1")="Proto Man"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="2")="Mega Man"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="3")="Roll"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="4")="Dr. Light"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="5")="Dr. Wily"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="6")="Dr. Cossack"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="7")="Cut Man"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="8")="Splash Woman"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="9")="Metal Man"
+                li
+                  a(href="#" class="author_link_tag" data-author_id="10")="Gemini Man"
+            li(class="dropdown_li")
+              h2(id="header_games" class="dropdown_link")="Games"
+              ul(class="dropdown")
+                li
+                  a(href="#" class="tipsheet_link_tag" data-id="1")="Mega Man I"
+                li
+                  a(href="#" class="tipsheet_link_tag" data-id="2")="Mega Man II"
+                li
+                  a(href="#" class="tipsheet_link_tag" data-id="3")="Mega Man III"
+                li
+                  a(href="#" class="tipsheet_link_tag" data-id="4")="Mega Man IV"
+                li
+                  a(href="#" class="tipsheet_link_tag" data-id="5")="Mega Man V"
+                li
+                  a(href="#" class="tipsheet_link_tag" data-id="6")="Mega Man VI"
+            li(class="dropdown_li" id="login")
+              h2(id="header_login" class="dropdown_link")="Log In"
+              .dropdown
+                form(action="/login" method="post")
+                  input(type="text" name="username" placeholder="Username")
+                  input(type="password" name="password" placeholder="Password")
+                  input(type="submit" value="Submit")
+                a(href="#")= "Log Out"
+
+    #login_message_window
+      .message_window
+        h2
+        div
+        div
+
+    main
+      block content
+
+    footer
+      #footer_head
+        h1= "PROTO BLOG"
+      #footer_body
+        nav
+          dl
+            dt="Articles"
+            dd
+              a(href="#" class="category_link_tag" data-category="news")="News"
+            dd
+              a(href="#" class="category_link_tag" data-category="blogs")="Blogs"
+            dd
+              a(href="#" class="category_link_tag" data-category="history")="Mega History"
+            dd
+              a(href="#" class="category_link_tag" data-category="doctor's orders")="Doctors' Orders"
+          dl
+            dt="Contributors"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="1")="Proto Man"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="2")="Mega Man"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="3")="Roll"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="4")="Dr. Light"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="5")="Dr. Wily"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="6")="Dr. Cossack"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="7")="Cut Man"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="8")="Splash Woman"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="9")="Metal Man"
+            dd
+              a(href="#" class="author_link_tag" data-author_id="10")="Gemini Man"
+          dl
+            dt="NES Games"
+            dd
+              a(href="#" class="tipsheet_link_tag" data-id="1")="Mega Man I"
+            dd
+              a(href="#" class="tipsheet_link_tag" data-id="2")="Mega Man II"
+            dd
+              a(href="#" class="tipsheet_link_tag" data-id="3")="Mega Man III"
+            dd
+              a(href="#" class="tipsheet_link_tag" data-id="4")="Mega Man IV"
+            dd
+              a(href="#" class="tipsheet_link_tag" data-id="5")="Mega Man V"
+            dd
+              a(href="#" class="tipsheet_link_tag" data-id="6")="Mega Man VI"
+          dl
+            dt="More Info"
+            dd
+              a(href="#" class="more_info_link" data-info="about_us")="About Us"
+            dd
+              a(href="#" class="more_info_link" data-info="advertising")="Advertising"
+            dd
+              a(href="#" class="more_info_link" data-info="jobs")="Jobs"
+            dd
+              a(href="#" class="more_info_link" data-info="faq")="FAQ"
+            dd
+              a(href="#" class="more_info_link" data-info="feedback")="Feedback"
+      #footer_foot
+        dl
+          dt
+            h4="© 2016 PROTO BLOG LLC"
+          dd
+            ul
+              li
+                a(href="#" class="more_info_link" data-info="terms_of_service")="Terms of Service"
+              li
+                a(href="#" class="more_info_link" data-info="privacy_policy")="Privacy Policy"
+
+    +javascript_include_tag("slideshow_images")
+    +javascript_include_tag("application")
+    +javascript_include_tag("models/article", "models/author", "models/category", "models/info")
+    +javascript_include_tag("collections/articles")
+    +javascript_include_tag("views/index", "views/article", "views/game", "views/author", "views/category", "views/info", "views/author_sidebar_link", "views/article_link", "views/latest_article_link", "views/article_thumb_link", "views/most_read_article", "views/featured_article", "views/article_sidebar_link", "views/error")
+    script(type="text/javascript").
+      App.articles = new Articles(!{JSON.stringify(articles)});
+      App.adjustPageForLoggedInUser();
+    +javascript_include_tag("router")
+
+    block scripts

@@ -1,0 +1,95 @@
+<header data-id="{{id}}">
+  <h3><a href="#">{{category}}</a></h3>
+  <h1>{{title}}</h1>
+  <p>{{tagline}}</p>
+  <h2>By <a href="#" class="author_link_tag" data-author_id="{{author_id}}">{{author}}</a> | {{dateTime}}</h2>
+</header>
+
+<figure class="article_image">
+  <img src="{{image}}" />
+  <figcaption>{{image_caption}}</figcaption>
+</figure>
+
+<div class="social_media_bar">
+  <dl>
+    <a href="https://www.facebook.com/" target="_blank" >
+      <dt><img src="../images/icons/icon_facebook.png"></dt>
+      <dd>Facebook</dd>
+    </a>
+  </dl>
+  <dl>
+    <a href="https://twitter.com/" target="_blank" >
+      <dt><img src="../images/icons/icon_twitter.png"></dt>
+      <dd>Twitter</dd>
+    </a>
+  </dl>
+  <dl>
+    <a href="https://www.instagram.com/" target="_blank" >
+      <dt><img src="../images/icons/icon_instagram.png"></dt>
+      <dd>Instagram</dd>
+    </a>
+  </dl>
+  <dl>
+    <a href="https://plus.google.com/collections/featured" target="_blank" >
+      <dt><img src="../images/icons/icon_google.png"></dt>
+      <dd>Google +</dd>
+    </a>
+  </dl>
+</div>
+
+<section id="article_body">
+  <div class="col1">
+    <div id="article_content">
+      {{{content}}}
+    </div>
+
+    <div id="article_authors">
+      <h2>Author:</h2>
+      <h4><a href="#" class="author_link_tag" data-author_id="{{author_id}}">{{author}}</a> | <a href="mailto:{{author_email}}">{{author_email}}</a></h4>
+    </div>
+
+    <div id="article_tags">
+      <h2>This story tagged under:</h2>
+      <ul>
+        {{#each tags}}
+        <li>
+          <a href="#" class="tagged_link_tag">
+            <div>
+            </div>
+            <div>
+              <h4>{{this}}</h4>
+            </div>
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+
+    <div id="comments">
+      <h1>Show Comments</h1>
+      <section>
+        <div class="message_window">
+          <h2></h2>
+          <div></div>
+          <div></div>
+        </div>
+        <form action="/comment" method="post">
+          <textarea rows="3" name="comment" placeholder="Add a comment..."></textarea>
+          <input type="submit" value="Comment" />
+        </form>
+        <ul class="comments_list">
+          {{#each comments}}
+          {{> comment_partial}}
+          {{/each}}
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <div class="col2">
+    <div id="article_sidebar_links">
+      <h1>PROTO BLOG</h1>
+      <ul></ul>
+    </div>
+  </div>
+</section>

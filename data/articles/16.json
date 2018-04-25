@@ -1,0 +1,31 @@
+{
+  "id": 16,
+  "content": "<p>Yesterday the U.N made good on their threats to sanction the nefarious Dr. Wily for his failure to adhere to the standards set in last year's Environpol Treaty. Iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.</p><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>",
+  "comments": [
+    {
+      "articleID": 16,
+      "user_id": 1,
+      "commentID": 1,
+      "time":"Wed Jan 11 2017 20:22:40 GMT-0800 (PST)",
+      "username": "Proto Man",
+      "icon": "/images/icons/proto_man.png",
+      "comment": "First!"
+    }, {
+      "articleID": 16,
+      "user_id": 5,
+      "commentID": 2,
+      "time":"Thu Jan 12 2017 08:15:00 GMT-0800 (EST)",
+      "username": "Dr. Wily",
+      "icon": "/images/icons/wily.jpg",
+      "comment": "typical liberal media bias"
+    }, {
+      "articleID": 16,
+      "user_id": 4,
+      "commentID": 3,
+      "time":"Thu Jan 12 2017 23:12:11 GMT-0800 (PST)",
+      "username": "Dr. Light",
+      "icon": "/images/icons/light.jpg",
+      "comment": "Reprehensible behaviour by Wily yet again. Can't say I'm shocked."
+    }
+  ]
+}

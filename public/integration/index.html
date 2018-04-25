@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.5.2</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.5.2/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-2.5.2/jasmine.css">
+
+  <script src="lib/jasmine-2.5.2/jasmine.js"></script>
+  <script src="lib/jasmine-2.5.2/jasmine-html.js"></script>
+  <script src="lib/jasmine-2.5.2/boot.js"></script>
+  <script src="/javascripts/vendor/all.js"></script>
+  <script src="/javascripts/handlebars_templates.js"></script>
+
+</head>
+
+<body>
+  <script src="/javascripts/slideshow_images.js"></script>
+  <script src="/javascripts/application.js"></script>
+  <script src="/javascripts/models/article.js"></script>
+  <script src="/javascripts/models/author.js"></script>
+  <script src="/javascripts/models/category.js"></script>
+  <script src="/javascripts/models/info.js"></script>
+  <script src="/javascripts/collections/articles.js"></script>
+  <script src="/javascripts/views/index.js"></script>
+  <script src="/javascripts/views/article.js"></script>
+  <script src="/javascripts/views/game.js"></script>
+  <script src="/javascripts/views/author.js"></script>
+  <script src="/javascripts/views/category.js"></script>
+  <script src="/javascripts/views/info.js"></script>
+  <script src="/javascripts/views/author_sidebar_link.js"></script>
+  <script src="/javascripts/views/article_link.js"></script>
+  <script src="/javascripts/views/latest_article_link.js"></script>
+  <script src="/javascripts/views/article_thumb_link.js"></script>
+  <script src="/javascripts/views/most_read_article.js"></script>
+  <script src="/javascripts/views/featured_article.js"></script>
+  <script src="/javascripts/views/article_sidebar_link.js"></script>
+  <script src="/javascripts/views/error.js"></script>
+  <script src="/javascripts/router.js"></script>
+
+  <script src="scaffolding/articles.js"></script>
+  <script>
+    App.articles = articles_scaffold;
+  </script>
+  <script src="spec/articles_spec.js"></script>
+  <script src="spec/login_spec.js"></script>
+</body>
+</html>

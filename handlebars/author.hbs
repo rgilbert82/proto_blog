@@ -1,0 +1,58 @@
+<section id="author_body" data-id="{{author_id}}">
+  <div class="col1">
+    <header>
+      <h1>{{name}}</h1>
+      <h2>{{title}}</h2>
+      <a href="https://twitter.com/" target="_blank">
+        <img src="/images/icons/icon_twitter_follow.png" />
+        <h3>Follow @faketwitteraccount</h3>
+      </a>
+    </header>
+
+    <div id="author_info">
+      <p>{{bio}}</p>
+      <img src="{{author_image}}" />
+    </div>
+
+    <div id="author_email">
+      <h4>{{name}} | <a href="mailto:{{author_email}}">{{author_email}}</a></h4>
+    </div>
+
+    <div id="author_contact">
+      <div class="message_window">
+        <h2></h2>
+        <div></div>
+        <div></div>
+      </div>
+      <h1>Contact {{name}}</h1>
+      <form action="" method="post">
+        <label for="your_email">Your Email Address</label>
+        <input type="email" id="your_email" name="your_email" placeholder="example@example.com" required />
+        <label for="your_message">Your Message</label>
+        <textarea id="your_message" name="your_message" placeholder="What would you like to say?" required></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
+
+  <div class="col2">
+    <div id="author_email_alerts">
+      <div class="message_window">
+        <h2></h2>
+        <div></div>
+        <div></div>
+      </div>
+      <h1>Author Email Alerts</h1>
+      <h2>Be alerted when {{name}} publishes a story</h2>
+      <form action="" method="post">
+        <input type="email" placeholder="Your email..." required />
+        <input type="submit" value="Sign Up" />
+      </form>
+    </div>
+
+    <div id="author_recent_stories">
+      <h1>{{name}}'s Recent Stories</h1>
+      <ol></ol>
+    </div>
+  </div>
+</section>

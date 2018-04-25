@@ -1,0 +1,31 @@
+{
+  "id": 8,
+  "content": "<p>Remember the good old days of robot manufacturing? When genuine humans put us together by hand, with care? Sed hendrerit semper nulla, id congue ex ultrices sed. Aenean mattis justo sit amet sapien laoreet ullamcorper. Aliquam quis sapien at tellus auctor rutrum non id nisl. Sed varius dui metus, sed pellentesque tortor egestas vitae. Cras ante arcu, bibendum eget enim ut, mattis tempor elit. Vestibulum quis odio hendrerit, faucibus massa et, tincidunt quam. Sed at scelerisque nunc. Ut fringilla risus sed urna egestas euismod. Quisque molestie risus at ullamcorper fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae neque a mauris mattis tempus. Morbi fringilla odio lorem, sed mattis elit vulputate eget. Praesent mollis sollicitudin dui. Morbi aliquet nisl in convallis dignissim. Aliquam erat volutpat. Quisque ut finibus dui, vel tincidunt mauris.</p><p>Vivamus eget massa quis enim sollicitudin accumsan sit amet et tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam velit arcu, luctus nec fermentum id, porttitor a lacus. Donec id eleifend tellus. Proin eu massa rutrum, dignissim quam a, malesuada est. Duis sodales mauris nibh, id scelerisque leo faucibus at. Curabitur mattis a lorem non elementum.</p><p>Aenean dignissim hendrerit sapien eu bibendum. Donec accumsan congue eleifend. Nam sit amet tortor sed odio ultricies faucibus. Quisque tristique justo ipsum, vitae malesuada mi dignissim eu. Nunc cursus sagittis rutrum. In facilisis urna vitae interdum placerat. Suspendisse lectus est, auctor et orci eget, blandit feugiat nulla. Vestibulum vitae odio posuere augue faucibus efficitur. In faucibus felis tincidunt nisi vulputate, id maximus risus pretium. Vivamus laoreet, ex sed auctor ultrices, magna tortor mollis purus, eget venenatis nisl ex in turpis. Curabitur quis dui varius, molestie lorem vitae, rhoncus leo. Vivamus ac elit convallis mi hendrerit mattis quis sit amet odio. Vivamus pulvinar aliquet elit vel pulvinar. Aenean porttitor finibus venenatis. In at scelerisque dui.</p>",
+  "comments": [
+    {
+      "articleID": 8,
+      "user_id": 4,
+      "commentID": 1,
+      "time":"Thu Jan 05 2017 10:33:19 GMT-0800 (PST)",
+      "username": "Dr. Light",
+      "icon": "/images/icons/light.jpg",
+      "comment": "I build all my Robot Masters by hand, unlike a certain unnamed scientist who outsources to Russian automatons."
+    }, {
+      "articleID": 8,
+      "user_id": 5,
+      "commentID": 2,
+      "time":"Fri Jan 06 2017 18:12:11 GMT-0800 (CT)",
+      "username": "Dr. Wily",
+      "icon": "/images/icons/wily.jpg",
+      "comment": "We need to stop blaming Russia for robot outsourcing and move on with our lives."
+    }, {
+      "articleID": 8,
+      "user_id": 9,
+      "commentID": 3,
+      "time":"Fri Jan 06 2017 23:12:19 GMT-0800 (PST)",
+      "username": "Metal Man",
+      "icon": "/images/icons/metal_man.jpg",
+      "comment": "Is more robo-regulation really the answer here?"
+    }
+  ]
+}
